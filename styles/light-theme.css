@@ -74,8 +74,8 @@ main {
   background: #f9f9fa;
 }
 .remove-button {
-  background-color: #e9705b;
-  color: #000000;
+  background-color: #325457;
+  color: #ffffff;
   padding: 0.4rem;
   margin: 1rem 0.5rem;
   border: none;
@@ -88,7 +88,7 @@ input[type="checkbox"].switch {
   appearance: none;
   width: 3.5rem;
   height: 1.5rem;
-  background: #F2884B;
+  background: #08c202;
   border-radius: 3em;
   position: relative;
   cursor: pointer;
