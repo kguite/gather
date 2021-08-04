@@ -215,26 +215,26 @@ function popupFunctionality() {
 
 function main() {
   const bookOne = new Book(
-    "Philosophical Investigations",
-    "Ludwig Wittgenstein ",
-    "256",
-    "https://images-na.ssl-images-amazon.com/images/I/81dAh6pGsiL.jpg",
+    "If, Then",
+    "Jill Lepore",
+    "432",
+    "https://scholar.harvard.edu/files/styles/book_cover/public/jlepore/files/ifthen_9781631496103.jpg?m=1582850471&itok=_c-X5u84",
     true
   );
   myLibrary.push(bookOne);
   const bookTwo = new Book(
-    "Molloy",
-    "Samuel Beckett",
+    "Trick Mirror",
+    "Jia Tolentino",
     "256",
-    "https://www.bookcity.pl/bigcovers/3/7/1/6/9780571243716.jpg",
+    "https://images2.penguinrandomhouse.com/cover/9780525510567",
     false
   );
   myLibrary.push(bookTwo);
   const bookThree = new Book(
-    "Walden",
-    "Henry David Thoreau",
-    "226",
-    "https://prodimage.images-bn.com/pimages/9781454929147_p0_v1_s1200x630.jpg",
+    "The Age of Surveillance Capitalism",
+    "Shoshana Zuboff",
+    "704",
+    "https://cdn.guardianbookshop.com/media/catalog/product/cache/d874a8bbdcb4970eec2cd89f161c9b16/9/7/9781781256855_1.jpg,
     true
   );
   myLibrary.push(bookThree);
