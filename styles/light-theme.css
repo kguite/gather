@@ -15,6 +15,7 @@ body {
   font-size: calc(0.6rem + 0.7vw);
   font-family: 'PT Serif Caption', serif;;
   line-height: calc(1.5rem + 0.5vw);
+  text-align: center;
   color: #35383f;
   background-color: #ffffff;
 }
