@@ -234,7 +234,7 @@ function main() {
     "The Age of Surveillance Capitalism",
     "Shoshana Zuboff",
     "704",
-    "https://cdn.guardianbookshop.com/media/catalog/product/cache/d874a8bbdcb4970eec2cd89f161c9b16/9/7/9781781256855_1.jpg,
+    "https://cdn.guardianbookshop.com/media/catalog/product/cache/d874a8bbdcb4970eec2cd89f161c9b16/9/7/9781781256855_1.jpg",
     true
   );
   myLibrary.push(bookThree);
