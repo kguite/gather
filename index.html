@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gather Personal Library App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="images/book-open-icon.ico" type="image/x-icon">
+      <!-- Light theme stylesheet -->
+    <link rel="stylesheet" href="styles/light-theme.css" id="theme-link"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/bookLogo.png" alt="logo" />
+      </div>
+      <h1>Gather</h1>
+    </header>
+
+    <aside>
+      <div class="statistics">BOOKS READ: 0</div>
+      <div class="statistics">BOOKS UNREAD: 0</div>
+      <div class="statistics">ALL BOOKS: 0</div>
+    </aside>
+
+    <nav>
+          
+      <div id="outer-div">
+        <div id="inner-div"></div>
+      </div>
+
+      <p>“She is a friend of my mind. <br>
+        She gather me, man. The pieces I am, <br>
+        she gather them and give them back to me in all the right order.”<br>
+        ― Toni Morrison, Beloved</p>
+      <p>Keep track of your or your kids' reading, without giving away your data.</p>
+    </nav>
+
+    <main>
+      <div id="shelf">
+      </div>
+      <button id="plus-button">+</button>
+    </main>
+
+ <div id="popup" class="form">
+   <form class="form-content" method="POST">
+     <div class="form-container">
+      <span class="close" title="Close Form">&times;</span>
+       <h2>Add new book</h1>
+
+       <hr>
+       <label for="title">Title</label>
+       <input type="text" placeholder="Title" name="title" required>
+ 
+       <label for="author">Author</label>
+       <input type="text" placeholder="Author" name="author" required>
+ 
+       <label for="pages">Number of pages</label>
+       <input type="number" placeholder="Number of pages" name="pages" min="1" required>
+       
+       <label for="pages">Book cover</label>
+       <input type="text" placeholder="URL of the cover" name="cover">
+
+       <div class="checkbox">
+       <label>I have read this book</label>
+         <input class="switch" type="checkbox" checked="unchecked" name="read">
+        </div>
+
+         <button type="submit" id="submit-button">Submit</button>
+      
+     </div>
+   </form>
+ </div> 
+    
+    <footer>
+      <p>
+        Made with ❤️ by 
+        <a href="https://katiemarie.dev target="”_blank”
+          >Katie Marie </a>
+      </p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
