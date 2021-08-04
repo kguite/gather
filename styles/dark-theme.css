@@ -1,4 +1,14 @@
+/* 
+Color Key:
+Orange: #ed5b2d
+Darkest background green: #294547
+Medium Background green: #325457
+Text white: #ffffff
+Light Blue Read/Unread button: #77CAD1
+Submit Button Orange: #ed5b2d
 
+
+*/
 body {
   display: grid;
   grid-template-areas:
@@ -13,6 +23,7 @@ body {
   margin: 0;
   font-size: calc(0.6rem + 0.7vw);
   font-family: 'PT Serif Caption', serif;
+  text-align: center;
   line-height: calc(1.1rem + 0.5vw);
   color: #f9f9fa;
   background-color: #294547;
@@ -25,7 +36,7 @@ header {
   align-items: center;
   padding: 0;
   color: #ffffff;
-  background: #294547;
+  background: #325457;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .logo img {
@@ -36,7 +47,7 @@ main {
   grid-area: main;
   position: relative;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background: #294547; /* 08dp */
+  background: #294547; 
   overflow: auto;
 }
 #shelf {
@@ -72,7 +83,7 @@ main {
   background: #353535;
 }
 .remove-button {
-  background-color: #e2cca3;
+  background-color:#a1a9aa;
   color: #35383f;
   padding: 0.4rem;
   margin: 1rem 0.5rem;
@@ -86,7 +97,7 @@ input[type="checkbox"].switch {
   appearance: none;
   width: 3.5rem;
   height: 1.5rem;
-  background: #e2cca3;
+  background: #08c202;
   border-radius: 3em;
   position: relative;
   cursor: pointer;
@@ -95,7 +106,7 @@ input[type="checkbox"].switch {
   transition: all 0.2s ease-in-out;
 }
 input[type="checkbox"].switch:checked {
-  background: #a3b0c4;
+  background: #bfccc5;
 }
 input[type="checkbox"].switch:after {
   position: absolute;
@@ -104,7 +115,7 @@ input[type="checkbox"].switch:after {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background: #35383f;
+  background: #35363f;
   -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(0.7);
@@ -130,10 +141,10 @@ button {
   height: 53px;
   width: 53px;
   border-radius: 50%;
-  background-color: #e2cca3;
-  color: #35383f;
+  background-color: #ed5b2d;
+  color: #000000;
   font-size: calc(1.5rem + 0.7vw);
-  font-family: "Roboto Mono", monospace;
+  font-family: 'PT Serif Caption', serif;
 }
 #plus-button:before {
   content: "";
@@ -259,15 +270,15 @@ input[type="number"] {
   color: #35383f;
   background: #f1f1f1;
 }
-/* Add a background color when the inputs get focus */
+/* Add a background color when focused */
 input[type="text"]:focus,
 input[type="number"]:focus {
   background-color: rgb(235, 235, 235);
   outline: none;
 }
 #submit-button {
-  background-color: #66789a;
-  color: #f9f9fa;
+  background-color: #77CAD1;
+  color: #000000;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
