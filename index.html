@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
   <head>
     <title>Gather Personal Library App</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Use Gather Personal Library App to keep track of books on your read and to-read lists.">
     
     <link rel="shortcut icon" href="images/gatherLogo.png" type="image/x-icon">
       <!-- Light theme stylesheet -->
@@ -46,7 +47,7 @@
    <form class="form-content" method="POST">
      <div class="form-container">
       <span class="close" title="Close Form">&times;</span>
-       <h2>Add new book</h1>
+       <h2>Add New Book</h2>
 
        <hr>
        <label for="title">Title</label>
@@ -55,15 +56,16 @@
        <label for="author">Author</label>
        <input type="text" placeholder="Author" name="author" required>
  
-       <label for="pages">Number of pages</label>
+       <label for="pages">Pages</label>
        <input type="number" placeholder="Number of pages" name="pages" min="1" required>
        
-       <label for="pages">Book cover</label>
-       <input type="text" placeholder="URL of the cover" name="cover">
+       <label for="pages">Book Cover</label>
+       <input type="text" placeholder="URL of the Cover" name="cover">
 
        <div class="checkbox">
-       <label>I have read this book</label>
+       <label for="read">Read or Unread
          <input class="switch" type="checkbox" checked="unchecked" name="read">
+        </label>
         </div>
 
          <button type="submit" id="submit-button">Submit</button>
@@ -73,10 +75,8 @@
  </div> 
     
     <footer>
-      <p>
-        Made with ❤️ by 
-        <a href="https://katiemarie.dev target="”_blank”
-          >Katie Marie </a>
+      <p>Made with ❤️ by 
+      <a href="https://katiemarie.dev">Katie Marie </a>
       </p>
     </footer>
 

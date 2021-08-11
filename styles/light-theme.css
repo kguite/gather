@@ -132,7 +132,7 @@ button {
   height: 53px;
   width: 53px;
   border-radius: 50%;
-  background-color: #ceaa68;
+  background-color: #ed5b2d;
   color: #000000;
   font-size: calc(1.5rem + 0.7vw);
   font-family: 'PT Serif Caption', serif;;
@@ -337,6 +337,12 @@ input[type="number"]:focus {
   aside {
     padding: 0.5rem;
   }
+
+  nav > p {
+    display: block;
+  }
+
+
   #plus-button {
     position: fixed;
     bottom: 200px;
@@ -346,4 +352,6 @@ input[type="number"]:focus {
     width: 200%; /* Full width */
     height: 100%; /* Full height */
   }
+
+ 
 }
