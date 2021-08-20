@@ -82,7 +82,6 @@ Project Link: [https://github.com/kguite/gather](https://github.com/kguite/gathe
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Canva](https://www.canva.com)
 * [100Devs](https://www.learnwithleon.com)
 
 
