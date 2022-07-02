@@ -21,7 +21,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <li><a href="#built-with">Built With</a></li>
-      <li><a href="#lessons-learned">Lessons Learned</a></li>
       <li><a href="#future-improvements">Future Improvements</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -34,11 +33,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Built with privacy in mind, Gather app is designed to be an alternative to Goodreads or other book tracking apps.  Your data is stored directly on your computer,  your info is not sold to third parties, and there are no advertisements.<br>
+Built with privacy in mind, Gather app is designed to be an alternative to Goodreads or other book tracking apps.  Your data is stored directly on your computer,  your info is not sold to third parties, and there are no advertisements.
+
 Here's why:
 * Easily keep track of books you've read, or would like to read.
 * We, and our kids, get enough advertisements already.
-* Use this information to build a homeschool transcript, brainstorm book club ideas, build a themed library, and more!
+* Use your list to brainstorm book club ideas, build a themed library, and more!
 
 A list of resources that I found helpful are listed in the acknowledgements.
 
@@ -48,20 +48,11 @@ A list of resources that I found helpful are listed in the acknowledgements.
 * [CSS Grid](https://cssgrid.com)
 
 
-<!-- LESSONS-LEARNED -->
-### Lessons Learned
-
-Oh, so many! Coming Soon.
-
 <!-- FUTURE-IMPROVEMENTS -->
 ### Future Improvements
 
-Of course there are always improvements to be made, but top priorities are:
 1.  Add Authentication
 2.  Add Categories
-3.  Try different colors
-
-
 
 
 <!-- LICENSE -->
